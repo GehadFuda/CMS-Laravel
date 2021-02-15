@@ -18,14 +18,14 @@
                         @foreach($posts as $post)
                             <tr>
                                 <td>
-                                    <img src="{{ asset('storage/'.$post->image) }}" width="120px" height="60px" alt="">
+                                    <img src="{{ asset('storage/' . $post->image) }}" width="120px" height="60px" alt="">
                                 </td>
                                 <td>
                                     {{ $post->title }}
                                 </td>
                                 @if(!$post->trashed())
                                     <td>
-                                        <a href="" class="btn btn-info btn-sm">Edit</a>
+                                        <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-info btn-sm">Edit</a>
                                     </td>
                                 @endif
                                 <td>
