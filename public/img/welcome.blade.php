@@ -183,7 +183,7 @@
         <div class="row gap-y align-items-center">
 
           <div class="col-6 col-lg-3">
-            <a href="/"><img src="{{ asset('img/logo-dark.png') }}" alt="logo"></a>
+            <a href="../index.html"><img src="../assets/img/logo-dark.png" alt="logo"></a>
           </div>
 
           <div class="col-6 col-lg-3 text-right order-lg-last">
@@ -195,7 +195,7 @@
             </div>
           </div>
 
-          <!-- <div class="col-lg-6">
+          <div class="col-lg-6">
             <div class="nav nav-bold nav-uppercase nav-trim justify-content-lg-center">
               <a class="nav-link" href="../uikit/index.html">Elements</a>
               <a class="nav-link" href="../block/index.html">Blocks</a>
@@ -203,7 +203,7 @@
               <a class="nav-link" href="../blog/grid.html">Blog</a>
               <a class="nav-link" href="../page/contact-1.html">Contact</a>
             </div>
-          </div> -->
+          </div>
 
         </div>
       </div>
